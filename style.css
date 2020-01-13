@@ -1,0 +1,51 @@
+#main {
+    /* declare display property as flex */
+    display: flex;
+    /* set direction of elements to row */
+    flex-direction: row;
+    /* this one adds a wrap around which gives some responsivity */
+    flex-flow: row wrap;
+    /* When a button is clicked, the following property is changed: */
+    justify-content: flex-start;
+    /* gives 8% space around this content */
+    margin: 8%;
+  }
+  
+  .box {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 5px solid azure;
+    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  }
+  
+  /* This is the styling for the button and label containers, disregard */
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 10%;
+  }
+  
+  .column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10%;
+  }
+  
+  #label {
+    font-size: 3em;
+    /* text-align: center; */
+  }
+  
+  #row-label {
+    font-size: 3em;
+    /* text-align: center; */
+  }
